@@ -11,7 +11,7 @@
     <application android:label="@string/english_ime_name"
             android:backupAgent="LatinIMEBackupAgent"
             android:killAfterRestore="false" 
-	    android:process="system">
+	    android:process="com.android.systemui">
 
         <service android:name="LatinIME"
                 android:label="@string/english_ime_name"
